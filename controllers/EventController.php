@@ -17,10 +17,6 @@ class EventController {
     public function getAllEvents() {
         return $this->model->getAllEvents();
     }
-
-    public function getEvent($id) {
-        return $this->model->getEvent($id);
-    }
     
     // Add a new event
     public function addEvent($data) {
