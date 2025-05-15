@@ -5,9 +5,6 @@
 
 require_once '../core/BaseController.php';
 require_once '../models/User.php';
-require_once '../models/LoginContext.php';
-require_once '../config/Database.php';
-require_once '../models/LoginStrategies/LoginStrategy.php';
 require_once '../models/LoginStrategies/SocialLogin.php';
 require_once '../models/LoginStrategies/EmailLogin.php';
 require_once 'JsonController.php';
